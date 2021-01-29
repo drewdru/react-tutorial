@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './components/Clock';
+import LoginControl from './components/LoginControl';
+import Calculator from './components/Calculator';
+import SignUpDialog from './components/SignUpDialog';
+
 
 function App() {
   return (
@@ -18,6 +23,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <Clock />
+      <LoginControl />
+      <Calculator />
+      <SignUpDialog />
     </div>
   );
 }
